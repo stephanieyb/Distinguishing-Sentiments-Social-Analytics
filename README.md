@@ -5,7 +5,7 @@ Create a Python script to perform a sentiment analysis of the Twitter activity o
 * A scatter plot of sentiments of the last **100** tweets sent out by each news organization, ranging from -1.0 to 1.0, where a score of 0 expresses a neutral sentiment, -1 the most negative sentiment possible, and +1 the most positive sentiment possible.
 * Each plot point will reflect the _compound_ sentiment of a tweet.
 * Sort each plot point by its relative timestamp.
- The second plot will be a bar plot visualizing the _overall_ sentiments of the last 100 tweets from each organization. For this plot, you will again aggregate the compound sentiments analyzed by VADER.
+ The second plot will be a bar plot visualizing the _overall_ sentiments of the last 100 tweets from each organization. For this plot, aggregating the compound sentiments analyzed by VADER.
 
 The tools of the trade for this task as a data analyst include the following: tweepy, pandas, matplotlib, and VADER.
 
